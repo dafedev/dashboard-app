@@ -53,7 +53,7 @@
   font-weight: 500;
   color: #267199;
 }
-.productFilter input {
+.productFilter select {
   color: #267199;
   border: 1px solid #267199;
   border-radius: 5px;
@@ -70,6 +70,40 @@
 .sellerFilter h2 {
   font-weight: 500;
   color: #267199;
+}
+.searchFilter {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.searchFilter h2 {
+  font-weight: 500;
+  color: #267199;
+}
+
+.searchFilter input {
+  color: #267199;
+  border: 1px solid #267199;
+  border-radius: 5px;
+  height: 30px;
+  padding-left: 10px;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.searchFilter button {
+  color: #267199;
+  border: 1px solid #267199;
+  border-radius: 5px;
+  height: 30px;
+  padding-left: 10px;
+  outline: none;
+  background-color: #267199;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 .sellerFilter input {
